@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=yes, maximum-scale=3.0,minimum-scale=1.0 "
+    />
+    <title>Galeria</title>
+    <link rel="stylesheet" href="../css/estilos.css" />
+    <link rel="stylesheet" href="../css/galeria.css" />
+    <link href="../stio-web/styles.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/e18fadc792.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="modal" id="modal">
+      <div class="modal__content">
+        <img src="" alt="" class="modal__img" id="modal__img" />
+      </div>
+      <div class="modal__boton" id="modal__boton">X</div>
+    </div>
+
+    <header class="main-header">
+      <div class="container container--flex">
+        <div class="logo-container column column--50">
+          <h1 class="logo"></h1>
+        </div>
+      </div>
+    </header>
+    <!--Menu-->
+    <nav class="main-nav">
+      <div class="container container--flex">
+        <i class="fa-solid fa-bars icon-menu" id="btn-menu"></i>
+        <ul class="menu" id="menu">
+          <li class="menu__item">
+            <a href="../index.html" class="menu__link">Inicio</a>
+          <li class="menu__item">
+            <a href="menu.html" class="menu__link menu__link--select"
+              >Menu</a
+            >
+          </li>
+          <li class="menu__item">
+            <a href="../html/contacto.html" class="menu__link">Contacto</a>
+          </li>
+        </ul>
+        <div class="social-icon">
+          <a href="" class="social-icon__link"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+          <a href="" class="social-icon__link"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="" class="social-icon__link"
+            ><i class="fa-brands fa-youtube"></i
+          ></a>
+        </div>
+      </div>
+    </nav>
+
+    <section class="banner">
+      <img src="../img/manzana.jpg" alt="" class="banner__img" />
+      <div class="banner__content">
+      </div>
+    </section>
+
+    <main class="main">
+      <div class="group gallery">
+        <h2 class="group__title">Nuestros Productos</h2>
+        <div class="container container--flex">
+          <div class="column column--50-25">
+            <img src="../img/glass.jpg" class="gallery__img gallery__img--big" />
+            <img
+              src="../img/protec.jpg"
+              class="gallery__img gallery__img--small"
+            />
+          </div>
+          <div class="column column--50-25">
+            <img
+              src="../img/fundas.jpg"
+              class="gallery__img gallery__img--small"
+            />
+            <img
+              src="../img/sinlogo.jpeg"
+              class="gallery__img gallery__img--big"
+            />
+          </div>
+          <div class="column column--50-25">
+            <img
+              src="../img/cablesoft.jpg"
+              class="gallery__img gallery__img--big"
+            />
+            <img src="../img/tputrans.jpg" class="gallery__img gallery__img--small" />
+          </div>
+          <div class="column column--50-25">
+            <img src="../img/tpu.jpg" class="gallery__img gallery__img--small" />
+            <img src="../img/cablesvarios.jpg" class="gallery__img gallery__img--big" />
+          </div>
+        </div>
+     >
+    </main>
+
+    <script src="../js/menu.js"></script>
+    <script src="../js/modal.js"></script>
+   
+  </body>
+</html>
